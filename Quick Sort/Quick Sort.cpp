@@ -70,6 +70,11 @@ void q_short(int low, int high)
             j--; //step 8
             cmp_count++;
         }
+        cmp_count++;
+        if (low < j) //step 9
+        {
+
+        }
     }
 }
 
